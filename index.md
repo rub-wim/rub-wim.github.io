@@ -6,13 +6,13 @@ layout: default
 
 <br>
 
-We are a women's math group focused on fostering networking, mentorship, and collaboration among female mathematicians.
-Our goal is to empower women in mathematics by connecting them with peers, providing mentors to postdocs and graduate students, and organizing math talks to promote collaboration.
-Through our activities, we create a space for women to share experiences, learn from one another, and thrive in their mathematical careers.
+We are a math group based at RUB.
+Our main actvities concern building collaborations, networking, and mentorship with a focus on providing tailored resources for gender minorities in mathematics.
+We subscribe to [Federico Ardilla's](https://fardila.com/) axioms for mathematical outreach and education:
 
-Read more about us here:
-
-- [About Women in Math at RUB](./about.html)
-- [Our Members](./members.html)
+- Mathematical potential is equally present in different groups, irrespective of geographic, demographic, and economic boundaries.
+- Everyone can have joyful, meaningful, and empowering mathematical experiences.
+- Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs.
+- Everyone deserves to be treated with dignity and respect.
 
 Sign up for our mailing list or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link).
