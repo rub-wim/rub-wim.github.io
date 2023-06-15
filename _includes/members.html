@@ -31,7 +31,7 @@
     clear: both;
   }
   
-  .speaker-photo {
+  .member-photo {
     width: 100%;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -45,11 +45,6 @@
       width: 100%;
     }
   }
-
-a:link {
-  color: #a22564;
-  text-decoration: none;
-}
 
 h3{
   margin-top:0px;
@@ -73,7 +68,7 @@ h6{
 <div class="row">
 <div class="column left">
   {% if person.pic %}
-  <img src = "{{ person.pic }}" class="speaker-photo">
+  <img src = "{{ person.pic }}" class="member-photo">
   {% endif %}
 </div>
 <div class="column right">

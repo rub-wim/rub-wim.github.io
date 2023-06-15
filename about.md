@@ -1,6 +1,7 @@
 ---
-layout: page
-title: About
+layout: default
+title: About Women in Mathematics
+description: About our organization.
 ---
 
 <p class="message">
