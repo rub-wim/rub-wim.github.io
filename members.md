@@ -7,7 +7,7 @@ members:
 - name: Giorgia Testolina
   affiliation: PhD Candidate (RUB)
   url: http://imperia.rz.ruhr-uni-bochum.de:8612/ffm/Lehrstuehle/Zehmisch/asselle.en
-  pic: /members/giorgia.jpg
+  pic: /members/giorgia.JPG
 - name: Laura Voggesberger
   affiliation: Postdoc (RUB)
   url: https://www.ruhr-uni-bochum.de/ffm/Lehrstuehle/Lehrstuhl-VI/voggesberger.html
