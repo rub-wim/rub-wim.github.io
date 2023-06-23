@@ -6,7 +6,8 @@ description: Members of Women in Math at RUB
 members:
 - name: Giorgia Testolina
   affiliation: PhD Candidate (RUB)
-  url: https://www.ruhr-uni-bochum.de/ffm/fakultaet/mitarbeiter/index.html
+  url: http://imperia.rz.ruhr-uni-bochum.de:8612/ffm/Lehrstuehle/Zehmisch/asselle.en
+  pic: /members/giorgia.jpg
 - name: Laura Voggesberger
   affiliation: Postdoc (RUB)
   url: https://www.ruhr-uni-bochum.de/ffm/Lehrstuehle/Lehrstuhl-VI/voggesberger.html
