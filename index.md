@@ -31,7 +31,9 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Networking: we provide a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and young researchers in mathematics.
 
-**Join us:** Sign up for our mailing list or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link)
+**Join us:** 
+
+Sign up for our mailing list or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link)
 - [Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
 
 ## Upcoming Event: Kickoff Meeting 
