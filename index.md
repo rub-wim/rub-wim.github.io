@@ -22,19 +22,19 @@ layout: default
 
 ## ABOUT US
 
-We are an inclusive math group based at RUB.
+We are an inclusive group of mathematicians based at RUB.
 Our goal is to empower and support women and gender minorities in the field of mathematics. We believe in the importance of collaboration, networking and mentorship to foster an inclusive and diverse mathematical community. 
 
-**Our objectives:**
+**What we aim at:**
 
-- Building collaborations: we strive to connect like-minded individuals and establish collaborations within the mathematics community.
-- Networking: we provide a space for women in mathematics to connect, share experiences and exchange ideas.
-- Mentorship for established and young researchers in mathematics.
+- Encouragement: promoting and inspiring women to pursue mathematics as a field of study.
+- Building collaborations: connecting like-minded individuals and establishing collaborations within the mathematics community.
+- Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
+- Mentorship for established and aspiring researchers in mathematics.
 
 ## JOIN US
 
 Sign up for our mailing list or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link)
-- [Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
 
 ## UPCOMING EVENT: KICKOFF MEETING
 
