@@ -20,7 +20,7 @@ layout: default
 
 <h1>Welcome to the RUB WIM website!</h1>
 
-## About Us
+## ABOUT US
 
 We are an inclusive math group based at RUB.
 Our goal is to empower and support women and gender minorities in the field of mathematics. We believe in the importance of collaboration, networking and mentorship to foster an inclusive and diverse mathematical community. 
@@ -31,12 +31,12 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Networking: we provide a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and young researchers in mathematics.
 
-**Join us:** 
+## JOIN US
 
 Sign up for our mailing list or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link)
 - [Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
 
-## Upcoming Event: Kickoff Meeting 
+## UPCOMING EVENT: KICKOFF MEETING
 
 - **When?** 13 July 2023, 14:00 - 16:00
 - **Where?** TBA
@@ -45,3 +45,5 @@ Everyone is welcome to introduce themselves and give a 5 minute talk about their
 - **How do I sign up?** Anyone can show up. If you want to give a lightning talk, email the organizers by July 10.
 
 <img src="rub.svg" class="rub_logo">
+
+[Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
