@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Contact
+description: How to contact women in maths
 ---
 
 <head>
