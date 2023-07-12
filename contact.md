@@ -25,6 +25,7 @@ description: How to contact women in maths
 ## E-Mail
 
 You can contact us at  <a mailto:="women-in-mathematics@ruhr-uni-bochum.de">women-in-mathematics@ruhr-uni-bochum.de</a>.
+
 Please let us know if you have any ideas or comments!
 <!-- <img src="rub.svg" class="rub_logo"> -->
 
