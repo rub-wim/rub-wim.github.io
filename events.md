@@ -3,9 +3,9 @@ layout: default
 title: Events
 description: Our upcoming, current, and past events
 
-##UPCOMING EVENTS:
+## UPCOMING EVENTS:
 
-##PAST EVENTS:
+## PAST EVENTS:
 
 past-events:
 - name: Kickoff meeting
