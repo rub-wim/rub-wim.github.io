@@ -33,8 +33,6 @@ past-events:
 Everyone is welcome to introduce themselves and give a 5 minute talk about their research.
 **How do I sign up?** Anyone can show up. If you want to give a lightning talk, email the organizers by July 10.
 
+---
+
 {% include events.html rsons=page.past-events %}
-
-<img src="rub.svg" class="rub_logo">
-
-[Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
