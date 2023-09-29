@@ -8,16 +8,21 @@ description: Our upcoming, current, and past events
 
 ## PAST EVENTS:
 
-<h2>Kickoff meeting</h2>
 
-[expand]
-- **When?** 13 July 2023, 14:00 - 16:00
+<details>
+	<summary>
+ <h2>Kickoff meeting</h2>
+</summary>
+	<pre>
+  - **When?** 13 July 2023, 14:00 - 16:00
 - **Where?** Friedrich-Sommer-Raum IB 1/103
 - **What?** A friendly meeting to get to know other women in math, with lightning talks about our research. 
 Everyone is welcome to introduce themselves and give a 5 minute talk about their research.
 - **How do I sign up?** Anyone can show up. If you want to give a lightning talk, email the organizers by July 10.
+	</pre>
 
-[/expand]
+</details>
+
 
  {% include text-expand.html %}
  
