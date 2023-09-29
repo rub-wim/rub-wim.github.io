@@ -63,8 +63,25 @@ h6{
   </style>
   </head>
 
-
+<h2 id="current_mambers">Current Members</h2>
 {% for person in page.members %}
+<div class="row">
+<div class="column left">
+  {% if person.pic %}
+  <img src = "{{ person.pic }}" class="member-photo">
+  {% endif %}
+</div>
+<div class="column right">
+  {% if person.url %}<a href="{{person.url}}"><h3>{{person.name}}</h3></a>{% else %}<h3>{{person.name}}</h3>{% endif %}
+  {% if person.affiliation %}<h6>{{person.affiliation}}{% if person.country %}, {{person.country}}{% endif %}</h6>{% endif %}
+  {% if person.bio %} {{person.bio}} <br> <br> {% endif %}
+</div>
+</div>
+<br>
+{% endfor %}
+
+<h2 id="past_mambers">Past Members</h2>
+{% for person in page.past_members %}
 <div class="row">
 <div class="column left">
   {% if person.pic %}
