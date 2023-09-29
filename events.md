@@ -11,7 +11,7 @@ description: Our upcoming, current, and past events
 
 <details>
 <summary>
- <h2>Kickoff meeting</h2>
+ Kickoff meeting
 </summary>
 <ul> 
  <li><strong>When?</strong> 13 July 2023, 14:00 - 16:00</li> 
