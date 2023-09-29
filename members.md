@@ -12,6 +12,8 @@ members:
   affiliation: Postdoc (RUB)
   url: https://www.ruhr-uni-bochum.de/ffm/Lehrstuehle/Lehrstuhl-VI/voggesberger.html
   pic: /members/laura.png
+
+past_members:
 - name: Galen Dorpalen-Barry
   affiliation: Postdoc (RUB)
   url: https://galen.dorpalen-barry.org/
