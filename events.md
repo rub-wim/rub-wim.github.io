@@ -8,7 +8,8 @@ description: Our upcoming, current, and past events
 
 ## PAST EVENTS:
 
-Kickoff meeting
+<h2>Kickoff meeting</h2>
+
 [expand]
 - **When?** 13 July 2023, 14:00 - 16:00
 - **Where?** Friedrich-Sommer-Raum IB 1/103
