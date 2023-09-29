@@ -18,10 +18,15 @@ layout: default
   </style>
   </head>
 
-<h1>Welcome to the RUB WIM website!</h1>
+<h1>Join us for our events!</h1>
 
-## PAST EVENTS: KICKOFF MEETING
+## UPCOMING EVENTS:
 
+## REGULAR MEETINGS:
+
+## PAST EVENTS: 
+
+- KICKOFF MEETING:
 - **When?** 13 July 2023, 14:00 - 16:00
 - **Where?** Friedrich-Sommer-Raum IB 1/103
 - **What?** A friendly meeting to get to know other women in math, with lightning talks about our research. 
