@@ -75,6 +75,13 @@ h6{
   </style>
   </head>
 <h2 id="events1">Upcoming Events</h2>
+{% for event in page.upcoming-events %}
+<h3>{{event.name}}</h3>
+  <div class="column right">
+    {% if event.description %} {{event.description}} <br> <br> {% endif %}
+  </div>
+<br>
+{% endfor %}
 
 <h2 id="events3">Past Events</h2>
 {% for event in page.past-events %}
