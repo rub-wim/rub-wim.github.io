@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Events
+description: Our upcoming, current, and past events
 ---
 
 <head>
