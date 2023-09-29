@@ -10,13 +10,8 @@
   float: left;
 }
 
-.left {
-  width: 25%;
-  padding-right: 10px;
-}
-
 .right {
-  width: 75%;
+  width: 100%;
   background-color: #17365c0d;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -31,13 +26,6 @@
     clear: both;
   }
   
-  .member-photo {
-    width: 100%;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-} 
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
@@ -90,17 +78,16 @@ h6{
 
 <h2 id="events3">Past Events</h2>
 {% for event in page.past-events %}
-<div class="row">
-<div class="column left">
-  {% if event.pic %}
-  <img src = "{{ person.pic }}" class="member-photo">
-  {% endif %}
-</div>
-<div class="column right">
-  {% if event.url %}<a href="{{person.url}}"><h3>{{event.name}}</h3></a>{% else %}<h3>{{event.name}}</h3>{% endif %}
-  {% if event.description %} {{event.description}} <br> <br> {% endif %}
-</div>
-</div>
+<details>
+  <summary>
+    <div class="collapsible">
+      <h3>{{event.name}}</h3>
+    </div>
+  </summary>
+  <div class="column right">
+    {% if event.description %} {{event.description}} <br> <br> {% endif %}
+  </div>
+</details>
 <br>
 {% endfor %}
 
