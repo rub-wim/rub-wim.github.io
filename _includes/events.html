@@ -4,31 +4,78 @@
   * {
     box-sizing: border-box;
   }
-.rub_logo {
-    width: 25%;
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-} 
-/* Create grey background for past events */
-.past-events {
-  width: 100%;
+
+/* Create two equal columns that float next to each other */
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+  padding-right: 10px;
+}
+
+.right {
+  width: 75%;
   background-color: #17365c0d;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   padding: 25px 10px 10px 25px;
 }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .member-photo {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+} 
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+h3{
+  margin-top:0px;
+}
+
+h6{
+  margin-top:0px;
+  letter-spacing: 0rem;
+  color:#808080;
+}
+
+.secondColor{
+  color:#8dae10;
+}
+
   </style>
   </head>
-<div class="past-events">
-  {% for event in page.past-events %}
-   <h1>event.name:</h1>
-   <ul>
-  event.description
-</ul>
-<br>
+
+
+{% for event in page.past-events %}
+<div class="row">
+<div class="column left">
+  {% if event.pic %}
+  <img src = "{{ person.pic }}" class="member-photo">
+  {% endif %}
 </div>
+<div class="column right">
+  {% if event.url %}<a href="{{person.url}}"><h3>{{event.name}}</h3></a>{% else %}<h3>{{event.name}}</h3>{% endif %}
+  {% if event.affiliation %}<h6>{{event.affiliation}}{% if event.country %}, {{event.country}}{% endif %}</h6>{% endif %}
+  {% if event.description %} {{event.description}} <br> <br> {% endif %}
+</div>
+</div>
+<br>
 {% endfor %}
-  
