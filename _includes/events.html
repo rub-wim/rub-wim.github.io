@@ -90,6 +90,9 @@ h6{
 
 {% for event in page.past-events %}
 <div class="row">
+   <button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>
 <div class="column left">
   {% if event.pic %}
   <img src = "{{ person.pic }}" class="member-photo">
@@ -101,5 +104,7 @@ h6{
   {% if event.description %} {{event.description}} <br> <br> {% endif %}
 </div>
 </div>
+</p>
+</div> 
 <br>
 {% endfor %}
