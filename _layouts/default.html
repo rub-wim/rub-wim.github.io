@@ -13,7 +13,9 @@
     {% include head-custom.html %}
     <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.31/darkreader.min.js"></script>
     <script>
-      if ($light==0){
+      var x = getComputedStyle(document.documentElement)
+          .getPropertyValue('--light');
+      if (x == 0){
         DarkReader.enable({
             brightness: 100,
             contrast: 90,
