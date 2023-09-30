@@ -384,9 +384,13 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  --light: 0
+  :root {
+    --light: 0
+  }
 }
 
 @media (prefers-color-scheme: light) {
-  --light: 1
+  :root {
+    --light: 1
+  }
 }
