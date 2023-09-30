@@ -385,12 +385,12 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --light: 0
+    $light: 0
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --light: 1
+    $light: 1
   }
 }
