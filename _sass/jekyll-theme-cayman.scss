@@ -383,6 +383,7 @@ a {
   color: $blockquote-text-color;
 }
 
+/* check whether we should use the dark theme or the light theme */
 @media (prefers-color-scheme: dark) {
   :root{
     --light: 0
