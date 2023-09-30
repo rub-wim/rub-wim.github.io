@@ -383,13 +383,3 @@ a {
   color: $blockquote-text-color;
 }
 
-  @media (prefers-color-scheme: dark){
-     <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.31/darkreader.min.js"></script>
-    <script>
-        DarkReader.enable({
-            brightness: 100,
-            contrast: 90,
-            sepia: 10
-        });
-    </script>
-}
