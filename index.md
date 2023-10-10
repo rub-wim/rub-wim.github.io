@@ -32,6 +32,12 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and aspiring researchers in mathematics.
 
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="news-slider.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="news-slider.js"></script>
 ## JOIN US
 
 Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo/women-in-maths) 
