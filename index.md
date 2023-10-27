@@ -7,6 +7,7 @@ description: A group for women and gender minorities in mathematics at the Ruhr-
 
 We are an inclusive group of mathematicians based at RUB.
 Our goal is to empower and support women and gender minorities in the field of mathematics. We believe in the importance of collaboration, networking and mentorship to foster an inclusive and diverse mathematical community. 
+---
 
 **What we aim at:**
 
@@ -15,6 +16,7 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and aspiring researchers in mathematics.
 
+---
 ## NEWS
 carousels:
   - images: 
