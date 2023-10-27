@@ -2,23 +2,7 @@
 layout: default
 title: Women in Mathematics
 description: A group for women and gender minorities in mathematics at the Ruhr-Universität Bochum.
-<!--
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  * {
-    box-sizing: border-box;
-  }
-.rub_logo {
-    width: 25%;
-    border-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-} 
-  </style>
-  </head>
--->
+
 <h1>Welcome to the RUB WIM website!</h1>
 
 ## ABOUT US
@@ -51,5 +35,22 @@ Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo
 [Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
 
 ---
+<!--
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+.rub_logo {
+    width: 25%;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} 
+  </style>
+  </head>
+-->
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
