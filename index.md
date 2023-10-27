@@ -1,6 +1,8 @@
 ---
 layout: default
-
+title: Women in Mathematics
+description: A group for women and gender minorities in mathematics at the Ruhr-Universität Bochum.
+<!--
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -16,7 +18,7 @@ layout: default
 } 
   </style>
   </head>
-
+-->
 <h1>Welcome to the RUB WIM website!</h1>
 
 ## ABOUT US
@@ -30,6 +32,14 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Building collaborations: connecting like-minded individuals and establishing collaborations within the mathematics community.
 - Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and aspiring researchers in mathematics.
+
+## NEWS
+carousels:
+  - images: 
+    - image: /uploads/slider/image1.jpg
+    - image: /uploads/slider/image2.jpg
+    - image: /uploads/slider/image3.jpg
+    - image: /uploads/slider/image4.jpg
   
 ## JOIN US
 
