@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: index
 title: Women in Mathematics
 description: A group for women and gender minorities in mathematics at the Ruhr-Universität Bochum.
-
-<h1>Welcome to the RUB WIM website!</h1>
 
 ## ABOUT US
 
