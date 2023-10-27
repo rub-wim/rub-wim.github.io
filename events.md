@@ -20,7 +20,13 @@ carousels:
     - image: /uploads/slider/image2.jpg
     - image: /uploads/slider/image3.jpg
     - image: /uploads/slider/image4.jpg
+  - images: 
+    - image: /uploads/slider/image5.jpg
+    - image: /uploads/slider/image6.jpg
+    - image: /uploads/slider/image7.jpg
+    - image: /uploads/slider/image8.jpg
 ---
 {% include events.html rsons=page.past-events %}
-
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="50" unit="%" duration="7" number="2" %}
 Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo/women-in-maths). <!--or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link).-->
