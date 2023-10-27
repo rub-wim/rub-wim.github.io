@@ -1,5 +1,11 @@
 ---
 layout: default
+carousels:
+  - images: 
+    - image: /uploads/slider/image1.jpg
+    - image: /uploads/slider/image2.jpg
+    - image: /uploads/slider/image3.jpg
+    - image: /uploads/slider/image4.jpg
 ---
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +36,11 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Building collaborations: connecting like-minded individuals and establishing collaborations within the mathematics community.
 - Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and aspiring researchers in mathematics.
-  
+
+## NEWS
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 ## JOIN US
 
 Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo/women-in-maths) 
@@ -40,6 +50,3 @@ Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo
 
 [Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
 
----
-
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
