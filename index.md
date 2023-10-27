@@ -2,12 +2,11 @@
 layout: index
 title: Women in Mathematics
 description: A group for women and gender minorities in mathematics at the Ruhr-Universität Bochum.
-
+---
 ## ABOUT US
 
 We are an inclusive group of mathematicians based at RUB.
 Our goal is to empower and support women and gender minorities in the field of mathematics. We believe in the importance of collaboration, networking and mentorship to foster an inclusive and diverse mathematical community. 
----
 
 **What we aim at:**
 
