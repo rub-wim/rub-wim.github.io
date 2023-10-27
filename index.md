@@ -32,17 +32,7 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and aspiring researchers in mathematics.
 
-carousels:
-  - images: 
-    - image: /uploads/slider/image1.jpg
-    - image: /uploads/slider/image2.jpg
-    - image: /uploads/slider/image3.jpg
-    - image: /uploads/slider/image4.jpg
-  - images: 
-    - image: /uploads/slider/image5.jpg
-    - image: /uploads/slider/image6.jpg
-    - image: /uploads/slider/image7.jpg
-    - image: /uploads/slider/image8.jpg
+
 
 ## JOIN US
 
