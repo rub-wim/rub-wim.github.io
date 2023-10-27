@@ -1,6 +1,5 @@
 ---
 layout: default
----
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,5 +41,5 @@ Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo
 [Fakultät für Mathematik](https://math.ruhr-uni-bochum.de/) at the Ruhr-Universität Bochum webpage
 
 ---
-
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
