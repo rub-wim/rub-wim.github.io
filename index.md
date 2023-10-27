@@ -2,10 +2,7 @@
 layout: default
 carousels:
   - images: 
-    - image: /uploads/slider/image1.jpg
-    - image: /uploads/slider/image2.jpg
-    - image: /uploads/slider/image3.jpg
-    - image: /uploads/slider/image4.jpg
+    - image: /uploads/slider/poster_sunflower.pdf
 ---
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
