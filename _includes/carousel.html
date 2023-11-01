@@ -1,18 +1,5 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css">
-    div.new_html_code {
-      width:150px;
-      height:100px;
-      min-width:150px;
-      min-height:100px;
-      max-width:200px;
-      max-height:100px;
-      overflow:hidden;
-      display:block;
-      border:1px solid red;
-    }
-  </style>
   <style>
   * {
     box-sizing: border-box;
@@ -109,8 +96,8 @@ h6{
               <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
               {% else %}
               <div class="carousel__slide">
-                 <div class="new_html_code">
-                  <h2 id="heading">item.heading</h2>
+                <article> 
+                  <h2 id="heading">{{ item.heading }}</h2>
                   <div class="row">
                       <div class="column left">
                           {% if item.pic %}
@@ -121,7 +108,7 @@ h6{
                           {{item.text}}
                       </div>
                   </div>
-                  </div>
+                  </article> 
               </div>
               
               {% endif %}
