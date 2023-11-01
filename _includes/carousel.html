@@ -1,12 +1,77 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+/* Create two equal columns that float next to each other */
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+  padding-right: 10px;
+}
+
+.right {
+  width: 75%;
+  background-color: #17365c0d;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 25px 10px 10px 25px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .member-photo {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+} 
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+h3{
+  margin-top:0px;
+}
+
+h6{
+  margin-top:0px;
+  letter-spacing: 0rem;
+  color:#808080;
+}
+
+.secondColor{
+  color:#8dae10;
+}
+
+  </style>
+  </head>
+
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
 {% assign letters = letterstring | split: ',' %}
 {% assign number = include.number | minus: 1 %}
 <div class="carousel__holder">
     <div id="carousel{{ number }}" class="carousel">
-        {% for item in page.carousels[number].images %}
+        {% for item in page.carousels[number].content %}
           <input class="carousel__activator" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
-        {% for item in page.carousels[number].images %}
+        {% for item in page.carousels[number].content %}
           {% if forloop.index == forloop.length %}
             {% assign nextindex = 0 %}
           {% else %}
@@ -26,13 +91,31 @@
         {% endfor %}
         <div class="carousel__track">
           <ul>
-            {% for item in page.carousels[number].images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            {% for item in page.carousels[number].content %}
+              {% if item.background_image %}
+              <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+              {% else %}
+              <li class="carousel__slide" style="background-image: url('{{ item.image }}');">
+                  <h2 id="heading">item.heading</h2>
+                  <div class="row">
+                      <div class="column left">
+                          {% if item.pic %}
+                          <img src = "{{ item.pic }}" class="member-photo">
+                          {% endif %}
+                      </div>
+                      <div class="column right">
+                          {{item.text}}
+                      </div>
+                  </div>              
+              </li>
+              
+              {% endif %}
+            
             {% endfor %}
           </ul>
         </div>
         <div class="carousel__indicators">
-            {% for item in page.carousels[number].images %}
+            {% for item in page.carousels[number].content %}
               <label class="carousel__indicator" for="{{ number }}{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
@@ -53,7 +136,7 @@
 .carousel__activator {
   display: none;
 }
-{% for item in page.carousels[number].images %}
+{% for item in page.carousels[number].content %}
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
   -webkit-transform: translateX(-{{ forloop.index0 }}00%);
           transform: translateX(-{{ forloop.index0 }}00%);
@@ -145,7 +228,7 @@
   right: 0;
   opacity: 1;
 }
-{% for item in page.carousels[number].images %}
+{% for item in page.carousels[number].content %}
 .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
   -webkit-transform: translateX({{ forloop.index0 }}00%);
           transform: translateX({{ forloop.index0 }}00%);
@@ -170,7 +253,7 @@
 .carousel__indicator {
   background-color: #fafafa;
 }
-{% for item in page.carousels[number].images %}
+{% for item in page.carousels[number].content %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
   background-size: cover;
