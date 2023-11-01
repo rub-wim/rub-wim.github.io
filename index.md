@@ -1,10 +1,11 @@
 ---
 layout: default
 carousels:
-  - content: 
-    - heading: Welcome Event
-    - pic: /uploads/slider/poster_sunflower.jpg
-    - text: <ul> <li><strong>When?</strong> 08 November 2023, 15:00 - 17:00</li> <li><strong>Where?</strong> Friedrich-Sommer-Raum IB 1/103</li> <li><strong>What?</strong> Let's welcome everyone back for the winter semester and meet new faculty members and students! Everyone is welcome to introduce themselves and get to know each other over cake and coffee.</li> <li><strong>How do I sign up?</strong> Anyone can show up and we're looking forward to meeting you!</li> </ul>
+  - content:
+    - item:
+      - heading: Welcome Event
+      - pic: /uploads/slider/poster_sunflower.jpg
+      - text: <ul> <li><strong>When?</strong> 08 November 2023, 15:00 - 17:00</li> <li><strong>Where?</strong> Friedrich-Sommer-Raum IB 1/103</li> <li><strong>What?</strong> Let's welcome everyone back for the winter semester and meet new faculty members and students! Everyone is welcome to introduce themselves and get to know each other over cake and coffee.</li> <li><strong>How do I sign up?</strong> Anyone can show up and we're looking forward to meeting you!</li> </ul>
 ---
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
