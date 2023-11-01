@@ -97,7 +97,7 @@ h6{
               {% if item.background_image %}
               <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
               {% else %}
-              <div class="carousel__slide">
+              <li class="carousel__slide">
                 <article> 
                   <h2 id="heading">{{ item.heading }}</h2>
                       <!--<div class="column left">
@@ -109,7 +109,7 @@ h6{
                           {{item.text}}
                     <!--  </div> -->
                   </article> 
-              </div>
+              </li>
               
               {% endif %}
             
