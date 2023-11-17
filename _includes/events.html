@@ -87,7 +87,7 @@ h6{
 {% for event in page.past-events %}
 <details>
   <summary>
-    <div class="collapsible">
+    <div id = "{{event.name}}" class="collapsible">
       <h2 style="color:Gray;">{{event.name}}</h2>
     </div>
   </summary>
