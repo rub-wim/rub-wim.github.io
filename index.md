@@ -41,7 +41,7 @@ Our goal is to empower and support women and gender minorities in the field of m
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 ## JOIN US
-
+![Welcome meeting](/uploads/pictures/Group_picture03.jpeg)
 Sign up for our [mailing list](https://lists.ruhr-uni-bochum.de/mailman/listinfo/women-in-maths) 
 <!-- End Jekyll SEO tag or become a member by filling out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmaadCNGYQ25b-C8ToJdVUVEInu_W2b99f71fXeSLqNCN-1Q/viewform?usp=sf_link)-->
 
