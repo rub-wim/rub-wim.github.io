@@ -36,7 +36,7 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -86,12 +86,10 @@ h6{
 <h2 id="events3">Past Events</h2>
 {% for event in page.past-events %}
 <button type="button" class="collapsible">
-     {{event.name}}
+      {{event.name}}
 </button>
-  <div class="content">
-   <p>
-     Test
-   </p>
+  <div class="column right">
+    {% if event.description %} {{event.description}} <br> <br> {% endif %}
   </div>
 <br>
 {% endfor %}
