@@ -74,7 +74,6 @@ h6{
 
   </style>
   </head>
-<body>
 <h2 id="events1">Upcoming Events</h2>
 {% for event in page.upcoming-events %}
 <h3>{{event.name}}</h3>
@@ -89,7 +88,7 @@ h6{
 <button type="button" class="collapsible">
       <h2 style="color:Gray;">{{event.name}}</h2>
 </button>
-  <div class="column right">
+  <div class="content">
     {% if event.description %} {{event.description}} <br> <br> {% endif %}
   </div>
 <br>
@@ -111,4 +110,3 @@ for (i = 0; i < coll.length; i++) {
   });
 } 
 </script>
-<body>
