@@ -86,7 +86,7 @@ h6{
 <h2 id="events3">Past Events</h2>
 {% for event in page.past-events %}
 <button type="button" class="collapsible">
-      <h2 style="color:Gray;">{{event.name}}</h2>
+     {{event.name}}
 </button>
   <div class="content">
     {% if event.description %} {{event.description}} <br> <br> {% endif %}
