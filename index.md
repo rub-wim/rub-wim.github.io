@@ -38,9 +38,9 @@ Our goal is to empower and support women and gender minorities in the field of m
 - Networking: providing a space for women in mathematics to connect, share experiences and exchange ideas.
 - Mentorship for established and aspiring researchers in mathematics.
 
-## NEWS
+<!--## NEWS
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}-->
 
 ## JOIN US
 <!--{% include image.html file="Group_picture03.jpeg" description="Welcome meeting, picture by Timm Peerenboom, 2023" width="80%" %}-->
