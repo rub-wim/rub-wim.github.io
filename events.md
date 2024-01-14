@@ -6,7 +6,7 @@ description: Our upcoming, current, and past events
 ## UPCOMING EVENTS:
 upcoming-events:
 - name: Lunch meetings
-  description: <p> Join us for lunch at the mensa, every second week!</p> <strong>Next dates:</strong> <li>Thursday, 23.11., 12:00</li> <li>Tuesday, 05.12., 12:00</li>
+  description: <p> Join us for lunch at the mensa, every second week!</p> <strong>Next dates:</strong> <li>Tuesday, 16.01., 12:00</li> <li>Thursday, 25.01., 12:00</li>
 
 
 
